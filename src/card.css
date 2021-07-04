@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .heading{
+      padding-left: 7rem;
+      padding-top: 2rem;
+  }
+  .grid_conntainer{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 4rem;
+    padding: 2rem;
+  }
+  
+  .card{
+    margin:2.5rem 1.5rem;
+
+    position: relative;
+    
+  }
+  
+  .main_div{
+    border: 2px solid black;
+  }
+  
+  .body{
+    display: flex;
+    justify-content: space-around;
+  
+  }
+  
+  .right{
+    display: flex;
+    flex-direction: column;
+    font-size: 0.75rem;
+  }
+  
+  .left{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    font-size: 0.75rem;
+  }
+  
+  .card-img-top{
+    background-color: black;
+      /* opacity: rgba(0,0,0,0.6); */
+      opacity: 0.2;
+      position: relative;
+  }
+  
+  .promoted{
+    /* border: 2px solid black; */
+    /* background-color: rgb(65, 131, 238); */
+    position: absolute;
+    height: 2rem;
+    width: 9.7rem;
+    top: -1rem;
+    left: 30.95rem;
+    padding: 0.25rem 0.75rem;
+    box-shadow: 0px -2px 16px -19px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px -2px 16px -19px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -2px 16px -19px rgba(0,0,0,0.75);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .promo{
+    display: inline;
+    position: relative;
+   /* text-align: justify; */
+    background-color: rgb(65, 131, 238);
+    width: 7rem;
+    height: 2rem;
+    color: #fff;
+    padding-top: 00.25rem;
+   
+  }
+  
+   .triangle{
+     display: inline;
+     position: relative;
+   /* position: absolute; */
+   left: 0;
+   top: -1;
+    width: 0;
+    height: 0;
+    border: 1rem solid rgb(65, 131, 238);
+    border-left-color: transparent;
+  } 
+  
+  .rate{
+    padding: 0.5rem;
+    background-color: rgb(253, 192, 37);
+    border-radius: 0.25rem;
+    width: 5rem;
+    height: 3.5rem;
+    color: white;
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    left: 34rem;
+    top: 1.5rem;
+    box-shadow: 0px -2px 16px -19px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px -2px 16px -19px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px -2px 16px -19px rgba(0,0,0,0.75);
+    /* box-shadow: rgba(0,0,0,0.5) lightgray; */
+    /* opacity: 1; */
+  }
+  
+  .rating_bold{
+      font-weight: bold;
+  }
+  .remark{
+    font-size: 0.65rem;
+  }
+  
+  .innerText{
+   display: flex;
+   justify-content: space-around;
+  }
+  
+  .text_1{
+    padding: 0.25rem 0.5rem;
+    border: 1px solid black;
+    border-radius: 2rem;
+    position: absolute;
+    left:1rem;
+    top: 12rem;
+    background-color: #fff;
+  }
+  
+  .text_2{
+    padding: 0.25rem 0.5rem;
+    border: 1px solid black;
+    border-radius: 2rem;
+    position: absolute;
+    left:12rem;
+    top: 12rem;
+    background-color: #fff;
+  }
+  
+  .text_3{
+    padding: 0.25rem 0.5rem;
+    position: absolute;
+    left:23rem;
+    top: 12rem;
+    color: black;
+  }
+  
+  .clg_name{
+    font-size: 1.25rem;
+  }
+
+  .nearest_place{
+      font-weight: bold;
+  }
+  
+  .diff_colo{
+    color: rgb(20, 167, 130);
+    font-weight: bold;
+  }
+  
+  .fees{
+    display: flex;
+    flex-flow: row-reverse;
+    font-size: 1rem;
+   align-items: center;
+  }
+  
+  .discount{
+    font-weight: bold;
+    background-color:red;
+    /* margin: 0.1rem; */
+    /* padding: .25rem; */
+    width: 2rem;
+    height: 1.5rem;
+    color: #fff;
+  }
+  
+  .discounted_fees{
+    display: flex;
+    flex-flow: row-reverse;
+    /* width: 1rem; */
+    color: red;
+    font-weight: bold;
+  }
+  
+  .pointed{
+    width: 0;
+    height: 0;
+    border: .75rem solid red;
+    /* background-color: red; */
+    border-left-color: transparent;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+  }
+  
+  .fee_cycle{
+    display: flex;
+    flex-flow: row-reverse;
+  }
+  
+  .amenity{
+    display: flex;
+    flex-flow: row-reverse;
+    margin-top: .75rem;
+    padding: 1rem 0;
+    font-size: 0.95rem;
+    color: rgb(20, 167, 130);;
+  }
+  
+  .login{
+  
+    padding: 0.75rem;
+    border: 1px solid white;
+    border-bottom-right-radius: 2rem;
+    border-top-right-radius: 2rem;
+    background-color: rgb(166, 247, 239);
+    /* margin-left: 0; */
+    padding-left:0 ;
+    margin-right: 6rem;
+  }
