@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/assignment_collegedunia/static/css/main.47250473.chunk.css",
+    "main.js": "/assignment_collegedunia/static/js/main.a411f451.chunk.js",
+    "main.js.map": "/assignment_collegedunia/static/js/main.a411f451.chunk.js.map",
+    "runtime-main.js": "/assignment_collegedunia/static/js/runtime-main.2ea3265e.js",
+    "runtime-main.js.map": "/assignment_collegedunia/static/js/runtime-main.2ea3265e.js.map",
+    "static/js/2.51d7973d.chunk.js": "/assignment_collegedunia/static/js/2.51d7973d.chunk.js",
+    "static/js/2.51d7973d.chunk.js.map": "/assignment_collegedunia/static/js/2.51d7973d.chunk.js.map",
+    "static/js/3.9d3d40c2.chunk.js": "/assignment_collegedunia/static/js/3.9d3d40c2.chunk.js",
+    "static/js/3.9d3d40c2.chunk.js.map": "/assignment_collegedunia/static/js/3.9d3d40c2.chunk.js.map",
+    "index.html": "/assignment_collegedunia/index.html",
+    "static/css/main.47250473.chunk.css.map": "/assignment_collegedunia/static/css/main.47250473.chunk.css.map",
+    "static/js/2.51d7973d.chunk.js.LICENSE.txt": "/assignment_collegedunia/static/js/2.51d7973d.chunk.js.LICENSE.txt",
+    "static/media/college_02.cfdc9984.jpg": "/assignment_collegedunia/static/media/college_02.cfdc9984.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2ea3265e.js",
+    "static/js/2.51d7973d.chunk.js",
+    "static/css/main.47250473.chunk.css",
+    "static/js/main.a411f451.chunk.js"
+  ]
+}
